@@ -1,0 +1,43 @@
+/* style.css */
+
+html, body {
+    padding: 5px;
+  }
+
+
+h1{
+  text-align: center;
+
+}
+article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+p{
+  display: flex;
+  flex-direction: row;
+  flex-shrink: inherit;
+}
+
+article div{
+  padding: 20px;
+  width: 160px;
+}
+/* style pour le loader */
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader > div {
+  font-size: x-large;
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+}
